@@ -1,4 +1,5 @@
 import Banner from '../../Components/Banner';
+import Footer from '../../Components/Footer';
 import Header from '../../Components/Header';
 import Menu from '../../Components/Menu';
 import styles from './HomePage.module.scss';
@@ -13,6 +14,7 @@ export default function HomePage() {
           <Banner />
         </section>
       </main>
+      <Footer />
     </>
   );
 }
